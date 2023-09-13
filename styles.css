@@ -1,6 +1,6 @@
 body {
 
-  background-image: url('ropafondo.png');
+  background-image: url('multi/ropafondo.png');
   background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
   background-repeat: no-repeat; /* Evita que se repita la imagen */
 
