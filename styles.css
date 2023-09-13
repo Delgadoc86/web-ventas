@@ -1,0 +1,210 @@
+body {
+
+  background-image: url('ropafondo.png');
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+  background-repeat: no-repeat; /* Evita que se repita la imagen */
+
+
+background-color: #f3ede0;
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+
+}
+
+
+ .formulario{
+    margin: 7%;
+    border: solid black ;
+    padding: 4%;;
+    box-shadow: 5px 5px 5px
+   }
+  /* imagenes de el carrusel*/
+
+  .carousel-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Asegura que las imágenes ocupen toda la altura del carrusel */
+
+}
+
+.carousel-item img {
+
+    margin-left: -17%;
+}
+
+
+  header {
+    background-color: #964040;
+    color: #110e0e;
+    padding: 10px;
+  }
+
+  img{
+   padding: 2%;
+   max-width: 35%;
+   max-height: 40%;
+    float: left;
+
+  }
+
+  header h1 {
+    margin: 0;
+  }
+
+
+  nav ul {
+    list-style: none;
+    margin: center;
+    padding: 0;
+  }
+
+  nav li {
+    display: inline-block;
+
+    margin: auto;
+
+
+  }
+
+
+
+  nav a {
+    color: #310909;
+    text-decoration: none;
+
+  }
+
+  main {
+    padding: 20px;
+  }
+  .galeria{
+    display: flex;
+    width: 5000px;
+    height: 3000px;
+
+  }
+  .galeria img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    filter: brightness(80%);
+    transition: .7s ease;
+  }
+  .galeria img:hover{
+    width: 500px;
+    opacity: 1;
+    filter: brightness(130%);
+   }
+  footer {
+    background-color: #919ab6;
+    color: #112c36;
+    text-align: center;
+    padding: 10px;
+  }
+
+
+
+  /* Estilos para el recuadro */
+.contenido {
+  border: 2px solid #0e0404; /* Borde de 2 píxeles sólido en color gris */
+  padding: 20px; /* Relleno de 20 píxeles alrededor del contenido */
+  border-radius: 20px; /* Bordes redondeados */
+  border-style:solid;
+
+}
+/*estilos de box*/
+
+.imagenes3{
+
+  display: flex;
+  justify-content: center;
+
+}
+.card{
+  background-color: #a7a7a763;
+}
+
+
+
+h2{
+  color:#0b1a1a;
+  padding: auto;
+
+}
+
+
+
+  header {
+    background-color: #a7727231;
+    color: #110f0f;
+    padding: 10px;
+    text-align: center;
+  }
+
+  header h1 {
+    margin: 0;
+  }
+
+  main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .ofertas {
+    border: 1px solid #463535;
+    border-radius: 10%;
+    width: 30%;
+    background-color: #92cce779;
+    padding: 10px;
+  }
+
+  .oferta {
+    margin-bottom: 20px;
+  }
+
+  .contenido {
+    width: 65%;
+    padding: 10px;
+  }
+
+
+/* Estilos para el botón flotante de WhatsApp */
+.whatsapp-float {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  bottom: 120px;
+  right: 10px;
+  font-size: .875rem;
+  text-align: right;
+  color: #3ccb4d;
+  transition: all .7s;
+}
+
+
+.whatsapp-float img {
+  width: 50px;
+  height: 50px;
+
+}
+/* estilo de las tablas*/
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+th {
+  background-color: #333;
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}

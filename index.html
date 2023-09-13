@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Mis Ventas</title>
+
+</head>
+<body>
+  <header>
+    <h1>Mi Web de Ventas</h1>
+    <nav >
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Productos</a></li>
+        <li><a href="#">Vender</a></li>
+        <li><a href="#">Iniciar sesión</a></li>
+      </ul>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> Navegación</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://google.com.ar" target="_blank">Google</a>
+            </li>
+              <li class="nav-item">
+              <a  href="index2.html" target="_blank" class= "disabled" aria-disabled="true">Registrarme</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+<!-- carrusel bajo cabecera-->
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="ropa1.png" class="d-block w-100" alt="ropa mix">
+      </div>
+      <div class="carousel-item">
+        <img src="ropa2.png" class="d-block w-100" alt="ropa formal">
+      </div>
+      <div class="carousel-item">
+        <img src="ropa3.png" class="d-block w-100" alt="ropa deportiva">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+<!--barra de progreso bajo carrusel-->
+  <main>
+    <section class="contenido">
+      <h2>Contenido Principal</h2>
+      <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-success" style="width: 25%">25%</div>
+      </div>
+      <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-info text-dark" style="width: 50%">50%</div>
+      </div>
+      <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-warning text-dark" style="width: 75%">75%</div>
+      </div>
+      <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-danger" style="width: 97%">97%</div>
+      </div>
+    </section>
+
+<!--panel derecho de ofertas-->
+    <section class="ofertas">
+      <h2>Solo por hoy!!!</h2>
+      <div class="oferta">
+        <h3>Jeans</h3>
+        <p>Precio: $50.00</p>
+      </div>
+      <div class="oferta">
+        <h3>Remeras</h3>
+        <p>Precio: $15.00</p>
+      </div>
+      <div class="oferta">
+        <h3>Camisas</h3>
+        <p>Precio: $30.00</p>
+      </div>
+      <!-- Agrega más ofertas aquí -->
+    </section>
+    <!-- Aquí puedes mostrar productos destacados, categorías, etc. -->
+  </main>
+      <ul>
+        <ol type="A">Lista de primer nivel:
+          <ul>
+            <ol type="1"> Lista de segundo nivel:
+              <ul>
+                <li type="I">Lista de tercer nivel:
+
+                </li>
+                <li type = "I">Segundo de la lista de tercer nivel:</li>
+              </ul>
+
+
+
+            </ol>
+            <li type = "1">Segundo de la lista de segundo nivel:</li>
+
+          </ul>
+        </ol>
+        <li type = "A">Segundo de la lista de primer nivel:</li>
+
+
+      </ul>
+  <div class="imagenes3">
+        <div class="box">
+      <div class="card" style="width: 18rem;">
+        <img src="niños.png" class="card-img-top" alt="ropa de niños">
+        <div class="card-body">
+          <h5 class="card-title">Ropa niños</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="box">
+      <div class="card" style="width: 18rem;">
+        <img src="mujer.png" class="card-img-top" alt="ropa de mujer">
+        <div class="card-body">
+          <h5 class="card-title">Prendas de mujer</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+   <div class="box">
+      <div class="card" style="width: 18rem;">
+        <img src="hombre.png" class="card-img-top" alt="ropa de hombre">
+        <div class="card-body">
+          <h5 class="card-title">Hombres</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+<!-- icono flotante de contacto de whatsapp-->
+
+  <a href="https://wa.me/2617478090" class="whatsapp-float" target="_blank">
+    <img src="whatsapp-icon.png" alt="WhatsApp">
+  </a>
+<!--enlace de youtube-->
+  <a  href="https://www.youtube.com" class="you" target="_blank"> <strong>A You tube pá</strong></a>
+
+  <!-- tabla de ejemplo -->
+
+  <h1>Prendas - Precios y Stock</h1>
+
+<table>
+
+  <tr>
+    <th>Prenda</th>
+    <th>Precio</th>
+    <th>Stock Disponible</th>
+  </tr>
+  <tr>
+    <td>Camiseta</td>
+    <td>$15.99</td>
+    <td>150</td>
+  </tr>
+  <tr>
+    <td>Pantalón</td>
+    <td>$29.99</td>
+    <td>75</td>
+  </tr>
+  <tr>
+    <td>Vestido</td>
+    <td>$39.99</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Zapatos</td>
+    <td>$49.99</td>
+    <td>120</td>
+  </tr>
+</table>
+     <div class="galeria">
+     <img src="deporte.png" alt="ropa deportiva">
+     <img src="interior.png" alt="ropa interior">
+     <img src="formal.png" alt="ropa formal">
+     <img src="informal.png" alt="ropa informal">
+     <img src="verano.png" alt="ropa de verano">
+
+     </div>
+
+  <!--mapa ubicacion-->
+
+
+  <footer>
+    <p>Derechos de autor © 2023 - Cristian Delgado</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
